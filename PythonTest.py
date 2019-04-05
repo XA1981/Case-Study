@@ -2,7 +2,7 @@ import pandas as pd
 import xlrd
 import numpy as np
 
-df = pd.read_excel("/home/osboxes/PythonTest.xlsx") 
+df = pd.read_excel("home/osboxes/PythonTest.xlsx") 
 
 print(df)
 
