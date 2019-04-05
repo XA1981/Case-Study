@@ -4,7 +4,7 @@ import numpy as np
 
 df = pd.read_excel("PythonTest.xlsx") 
 
-print(df.head())
+print('after reading file --> '+df)
 
 df['Name'] = np.where(df['Emp_Id']>105, 'Abhi', df['Name'])
-print(df)
+print('after updation --> '+df)
